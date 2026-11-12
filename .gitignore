@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.env
+*token*
+*credential*
+configs/local*.json
+data/private/
+work/
+results/artifacts/
+*.tmp
+.DS_Store

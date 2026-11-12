@@ -1,0 +1,13 @@
+All rights reserved.
+
+The original repository states:
+"All rights reserved. No part of the code or data may be used, reproduced,
+or distributed without explicit permission."
+
+This migration preserves that permission requirement and does not grant an
+open-source license. Original authorship: Zhiping Chen and Xiaoping Ren.
+Contact: zchen@mail.xjtu.edu.cn.
+
+Third-party libraries retain their respective licenses. Provider data remain
+subject to their original terms; public availability of this repository does
+not grant redistribution rights to Tushare, Wind or Eastmoney data.

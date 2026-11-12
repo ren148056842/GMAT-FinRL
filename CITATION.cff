@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the associated research code."
+type: software
+title: "MGAT-FinRL: A Multi-relational Graph Attention Transformer-Based Reinforcement Learning Investment Strategy"
+authors:
+  - family-names: Chen
+    given-names: Zhiping
+  - family-names: Ren
+    given-names: Xiaoping
+repository-code: "https://github.com/ren148056842/MGAT-FinRL"
+url: "https://github.com/ren148056842/MGAT-FinRL"
+version: 1.0.0
