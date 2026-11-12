@@ -1,0 +1,5 @@
+{
+  "data_root": "data/private",
+  "artifact_root": "results/artifacts",
+  "output_root": "work/runs"
+}

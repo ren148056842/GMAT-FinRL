@@ -1,0 +1,126 @@
+{
+  "splits": {
+    "train": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "validation": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ]
+  },
+  "algorithms": [
+    "ppo",
+    "a2c",
+    "sac",
+    "td3",
+    "ddpg"
+  ],
+  "rl_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "forecast_seeds": [
+    1,
+    2,
+    3
+  ],
+  "primary_sources": [
+    "Naive",
+    "Ridge_R",
+    "A1_R",
+    "MGAT_T"
+  ],
+  "ablation_sources": [
+    "GCN_R",
+    "A10_R",
+    "MGT_R"
+  ],
+  "steps": {
+    "a2c": 40000,
+    "ppo": 40000,
+    "sac": 60000,
+    "td3": 30000,
+    "ddpg": 50000
+  },
+  "model_params": {
+    "a2c": {
+      "n_steps": 10,
+      "ent_coef": 0.005,
+      "learning_rate": 0.0004
+    },
+    "ppo": {
+      "n_steps": 2048,
+      "ent_coef": 0.005,
+      "learning_rate": 0.001,
+      "batch_size": 128
+    },
+    "sac": {
+      "batch_size": 128,
+      "buffer_size": 1000000,
+      "learning_rate": 0.0001,
+      "learning_starts": 100,
+      "ent_coef": "auto_0.1"
+    },
+    "td3": {
+      "batch_size": 100,
+      "buffer_size": 1000000,
+      "learning_rate": 0.001
+    },
+    "ddpg": {}
+  },
+  "window": 20,
+  "targets": [
+    "h1",
+    "l1",
+    "c1",
+    "h2",
+    "l2",
+    "c2"
+  ],
+  "ranking_lambda": 1.0,
+  "fees": {
+    "F0": {
+      "commission": 0.0,
+      "slippage": 0.0,
+      "historical_tax": false
+    },
+    "F1": {
+      "commission": 0.00030000000000000003,
+      "slippage": 0.0002,
+      "historical_tax": true
+    },
+    "F2": {
+      "commission": 0.0005,
+      "slippage": 0.0002,
+      "historical_tax": true
+    },
+    "F3": {
+      "commission": 0.001,
+      "slippage": 0.0002,
+      "historical_tax": true
+    },
+    "F4": {
+      "commission": 0.002,
+      "slippage": 0.0002,
+      "historical_tax": true
+    },
+    "F5": {
+      "commission": 0.00030000000000000003,
+      "slippage": 0.0,
+      "historical_tax": true
+    },
+    "F6": {
+      "commission": 0.00030000000000000003,
+      "slippage": 0.0005,
+      "historical_tax": true
+    }
+  }
+}
