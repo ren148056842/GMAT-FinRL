@@ -1,0 +1,52 @@
+[
+  {
+    "path": "bank sectordata/banktrade20241231.CSV",
+    "bytes": 1819118,
+    "sha256": "e1f62c6ff823b02149c12df463e441d3e3a6daf5fea5da65b646905f70247f14"
+  },
+  {
+    "path": "haelthcaresectordata/techtrade20241231.CSV",
+    "bytes": 1993158,
+    "sha256": "c3526daa8ad46ab39b0e43cb3eb4d3be1c3658cacae631433325c7f9686ef858"
+  },
+  {
+    "path": "bank sectordata/bankvolume_kendall.npy",
+    "bytes": 1928,
+    "sha256": "9659b4908a517810be54b6db866c829cb8263c4c62343f75a35e90fc8b441525"
+  },
+  {
+    "path": "bank sectordata/bank_qa_graph.npy",
+    "bytes": 1928,
+    "sha256": "e85e11f708a29d26ea0e587195df4eae8d371eef69c7f83b1a211d8b45d82212"
+  },
+  {
+    "path": "bank sectordata/bankshareholding_relation_adjacent_matrix_tongyi.npy",
+    "bytes": 1928,
+    "sha256": "c4d42352d2b8aad812afe001faf177f20a6f01854de99f505254739033696738"
+  },
+  {
+    "path": "haelthcaresectordata/techvolume_kendall.npy",
+    "bytes": 1928,
+    "sha256": "78718b7d1419eec3513322084dec41c8366e35dbb1a907f2068f5bf2f02e5c22"
+  },
+  {
+    "path": "haelthcaresectordata/tech_qa_graph.npy",
+    "bytes": 1928,
+    "sha256": "4c346ea2eb4a42c72a08fe96adb694ec8260c521bcce5102f02839aa9be2ddba"
+  },
+  {
+    "path": "haelthcaresectordata/techstockholder.npy",
+    "bytes": 1928,
+    "sha256": "6a58e4b7adebfe1545a286350283726158e440bd0017fa796102f87d0de723a6"
+  },
+  {
+    "path": "data2025/panels/bank_panel_20251231.csv",
+    "bytes": 2056264,
+    "sha256": "9ee579d7f76a4a0d98fb1dcf4fa3ede8d4d68a6c6ba8f4a954231f4b32d17252"
+  },
+  {
+    "path": "data2025/panels/healthcare_panel_20251231.csv",
+    "bytes": 2253281,
+    "sha256": "c05e433eceb7349a51ea68799435e10f56550e24095e7f756dac420c988994f6"
+  }
+]
