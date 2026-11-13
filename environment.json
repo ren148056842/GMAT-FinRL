@@ -1,0 +1,35 @@
+{
+  "python": "3.8.16 (default, Jun 12 2023, 21:00:42) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "packages": {
+    "finrl": {
+      "version": "0.3.4",
+      "returncode": 0
+    },
+    "stable-baselines3": {
+      "version": "2.4.0",
+      "returncode": 0
+    },
+    "torch": {
+      "version": "2.0.1",
+      "returncode": 0
+    },
+    "gym": {
+      "version": "0.21.0",
+      "returncode": 0
+    },
+    "gymnasium": {
+      "version": "1.0.0",
+      "returncode": 0
+    },
+    "numpy": {
+      "version": "1.23.1",
+      "returncode": 0
+    },
+    "pandas": {
+      "version": "1.4.3",
+      "returncode": 0
+    }
+  }
+}
